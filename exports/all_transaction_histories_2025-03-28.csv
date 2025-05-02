@@ -1,0 +1,33 @@
+Type,Amount,Details,Timestamp,Account Holder
+changepin,0.0,PIN changed by user,2025-03-26 13:31:52,Admin_User
+changepin,0.0,PIN changed by user,2025-03-26 13:25:08,John_Doe
+changepin,0.0,PIN changed by user,2025-03-26 13:24:29,Admin_User
+transfer,20.0,from Jane_Smith to 00001 (John_Doe),2025-03-26 13:19:11,Jane_Smith
+received,20.0,from Jane_Smith (00002),2025-03-26 13:19:11,John_Doe
+transfer,20.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 13:09:54,John_Doe
+received,20.0,from John_Doe (00001),2025-03-26 13:09:54,Jane_Smith
+transfer,50.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 13:05:28,John_Doe
+received,50.0,from John_Doe (00001),2025-03-26 13:05:28,Jane_Smith
+transfer,200.0,from Jane_Smith to 00001 (John_Doe),2025-03-26 12:53:57,Jane_Smith
+transfer,50.0,from Jane_Smith to 00001 (John_Doe),2025-03-26 12:53:19,Jane_Smith
+transfer,50.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:51:48,John_Doe
+transfer,50.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:48:04,John_Doe
+transfer,200.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:45:45,John_Doe
+transfer,50.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:35:39,John_Doe
+transfer,200.0,from Jane_Smith to 00001 (John_Doe),2025-03-26 12:33:11,Jane_Smith
+transfer,300.0,from Jane_Smith to 00001 (John_Doe),2025-03-26 12:32:36,Jane_Smith
+transfer,300.0,from Jane_Smith to 00003 (Admin_User),2025-03-26 12:32:10,Jane_Smith
+deposit,5000.0,by Jane_Smith,2025-03-26 12:29:20,Jane_Smith
+transfer,100.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:27:50,John_Doe
+deposit,50.0,by John_Doe,2025-03-26 12:24:19,John_Doe
+deposit,200.0,by John_Doe,2025-03-26 12:22:36,John_Doe
+deposit,100.0,by John_Doe,2025-03-26 12:20:48,John_Doe
+deposit,100.0,by John_Doe,2025-03-26 12:19:22,John_Doe
+transfer,50.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:14:57,John_Doe
+paybill,200.0,to CQ by John_Doe,2025-03-26 12:01:50,John_Doe
+transfer,500.0,from John_Doe to 00002 (Jane_Smith),2025-03-26 12:01:05,John_Doe
+deposit,2000.0,by John_Doe,2025-03-26 12:00:48,John_Doe
+paybill,400.0,FI,2025-03-26 11:54:17,John_Doe
+transfer,200.0,to 00002,2025-03-26 11:49:42,John_Doe
+withdrawal,200.0,,2025-03-26 11:36:27,John_Doe
+deposit,100.0,,2025-03-26 11:36:15,John_Doe

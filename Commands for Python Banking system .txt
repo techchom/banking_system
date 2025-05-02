@@ -1,0 +1,81 @@
+python frontend.py
+
+
+🏁 Step-by-Step Terminal Commands
+1. ✅ Login (as admin)
+bash
+Copy
+Edit
+Command: login
+Login type (admin/standard): admin
+2. ➕ Create a New Client Account
+bash
+Copy
+Edit
+Command: create
+New account holder name: Alice_Wonder
+New account number: 00010
+Initial balance: 5000
+Plan (SP/NP): SP
+3. 💰 Deposit to an Account
+bash
+Copy
+Edit
+Command: deposit
+Account holder name: Alice_Wonder
+Account number: 00010
+Amount to deposit: 1000
+4. 🏧 Withdraw Money
+bash
+Copy
+Edit
+Command: withdrawal
+Account holder name: Alice_Wonder
+Account number: 00010
+Amount to withdraw: 400
+5. 🔁 Transfer Funds
+bash
+Copy
+Edit
+Command: transfer
+Account holder name: Alice_Wonder
+From account: 00010
+To account: 00001
+Amount: 500
+📝 Make sure account 00001 exists already (e.g. John_Doe from db_setup.py)
+
+6. 🧾 Pay a Bill
+bash
+Copy
+Edit
+Command: paybill
+Account holder name: Alice_Wonder
+Account number: 00010
+Company code (EC, CQ, FI): EC
+Amount to pay: 200
+7. 🔁 Change Transaction Plan
+bash
+Copy
+Edit
+Command: changeplan
+Account holder name: Alice_Wonder
+Account number: 00010
+8. 🚫 Disable Account
+bash
+Copy
+Edit
+Command: disable
+Account holder name: Alice_Wonder
+Account number: 00010
+9. ❌ Delete Account
+bash
+Copy
+Edit
+Command: delete
+Account holder name: Alice_Wonder
+Account number: 00010
+🔚 10. End the Session
+bash
+Copy
+Edit
+Command: logout
